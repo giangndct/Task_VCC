@@ -1,3 +1,5 @@
+package Bai5;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -58,6 +60,9 @@ public class bai5 {
         wordDict.add("and");
         wordDict.add("sand");
         wordDict.add("dog");
+        wordDict.add("catsa");
+        wordDict.add("nd");
+
 
         List<String> sentences= bai5.wordBreak(s,wordDict);
         for (String sentence : sentences) {

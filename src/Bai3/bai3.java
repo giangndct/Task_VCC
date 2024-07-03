@@ -1,3 +1,5 @@
+package Bai3;
+
 public class bai3 {
     public static int binarysearchfirst(int[] a, int target){
 

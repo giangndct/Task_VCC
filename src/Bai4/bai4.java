@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package Bai4;
 
 public class bai4 {
     public static int searchmax(int[] arr){
