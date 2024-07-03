@@ -1,8 +1,8 @@
 package ManageOrder;
 
-public class PhysicalProductOrder implements Order {
+public class PhysicalProductOrder extends Order {
     @Override
     public void process() {
-        System.out.println("Processing physical product order");
+        System.out.println("Processing physical product order " + CustomerName );
     }
 }

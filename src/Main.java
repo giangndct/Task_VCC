@@ -14,6 +14,8 @@ public class Main {
         dbConnection1.query("SELECT * FROM orders");
         //factory
         Order order = OrderFactory.createOrder("physical");
+        order.setOrderId("123");
+        order.setCustomerName("Giang");
         order.process();
         //chain
         OrderHandler validationHandler = new ValidationHandler();
